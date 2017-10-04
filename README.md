@@ -1,2 +1,1 @@
-# medizen
-Medizen Bolivia website
+# Medizen Bolivia - Responsive website
