@@ -319,7 +319,7 @@ a:hover .fa-circle {
     display: table-cell;
     vertical-align: bottom;
     background: rgba(0, 0, 0, 0.5);
-    padding: 100px 0;
+    padding: 50px 0;
 }
 .intro .intro-body .brand-heading {
     font-size: 24px;
@@ -335,6 +335,40 @@ a:hover .fa-circle {
     /*font-weight: 800;*/
     text-transform: uppercase;
 }
+.service-link {
+  height: 130px;
+  padding: 50px 0;
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+  text-decoration: none;
+  text-shadow: 2px 2px rgba(0, 0, 0, .5);
+  background-color: rgba(0, 0, 0, 0.3);
+  /*color: #00a8ff;*/
+}
+#link-ortomolecular {
+  background-image: url(../img/ortomolecular.jpg);
+  background-size: cover;
+  padding: 0;
+}
+#link-homeopatia {
+  background-image: url(../img/homeopatia.jpg);
+  background-size: cover;
+  padding: 0;
+}
+#link-apiterapia {
+  background-image: url(../img/apiterapia.jpg);
+  background-size: cover;
+  padding: 0;
+}
+#link-terapianeural {
+  background-image: url(../img/terapianeural.jpg);
+  background-size: cover;
+  padding: 0;
+}
+
 @media(min-width:768px) {
     .intro {
         padding: 0;
