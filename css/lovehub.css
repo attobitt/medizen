@@ -72,7 +72,7 @@ a:focus {
 section {
     position: relative;
     z-index: 999;
-    padding: 100px 0;
+    padding: 50px 0;
 }
 
 @media(max-width:768px) {
@@ -114,10 +114,10 @@ section {
     background-color: #eee;
 }
 .btn-primary {
-    border: 2px solid #00a8ff;
+    border: 2px solid #50b748;
     outline: 0;
     color: #fff;
-    background-color: #00a8ff;
+    background-color: #50b748;
 }
 .btn-primary:hover,
 .btn-primary:focus {
@@ -187,20 +187,29 @@ a:hover .fa-circle {
     color: #555;
 }
 
+/* Logo */
+.logo, .logo-white {
+  padding: 4px 0 0 4px;
+}
+@media(min-width:768px) {
+  .logo {
+    padding: 0;
+  }
+}
 /* NavBar */
-
 .navbar-custom {
     margin-bottom: 0;
-    /*border-bottom: 1px solid #333;*/
     text-transform: uppercase;
     color: rgba(255,255,255,.8);
-    /*color: #212121;*/
     background-color: rgba(0, 0, 0, 0);
 }
 .navbar-custom .navbar-brand {
     font-size: 26px;
     letter-spacing: -1px;
     text-transform: none;
+}
+.navbar-custom .navbar-brand img {
+  width: 8em;
 }
 .navbar-custom.top-nav-collapse {
     font-size: 18px;
@@ -235,10 +244,11 @@ a:hover .fa-circle {
     color: #fff;
     font-size: 12px;
     font-weight: 700;
-    letter-spacing: 0.15em;
+    letter-spacing: 0.1em;
     text-transform: uppercase;
 }
 .navbar-custom .nav li a {
+    text-align: right;
     -webkit-transition: background .4s ease-in-out;
     -moz-transition: background .4s ease-in-out;
     transition: background .4s ease-in-out;
@@ -277,14 +287,14 @@ a:hover .fa-circle {
         background-color: #fdfdfd;
     }
     .navbar-custom.top-nav-collapse a {
-      color: #212121!important;
+        color: #212121!important;
     }
 }
 .top-nav-collapse .container {
     width: auto;
 }
 .navbar-toggle {
-    padding: 3px 5px 0;
+    /*padding: 3px 5px 0;*/
     margin-bottom: 0;
 }
 h2 {
@@ -305,36 +315,12 @@ h2 {
     -moz-background-size: cover;
     background-size: cover;
 }
-
-.intro2 {
-    background: #000 url(../img/6.jpg)  no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-}
-
-.intro2 #clock {
-    padding:50px 0;
-}
-
-.intro2 #clock span {
-    border-bottom: 1px solid #fff!important;
-}
 .intro .intro-body {
     display: table-cell;
     vertical-align: bottom;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.25);
+    /*background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));*/
     padding: 50px 0;
-}
-.intro .intro-body .brand-heading {
-    font-size: 22px;
-    font-weight: 800;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.75);
-    letter-spacing: 2px;
-    margin: 0 0 5px;
-}
-.color {
-    color: #00a8ff;
 }
 .intro .intro-body .intro-text {
     font-size: 16px;
@@ -342,77 +328,49 @@ h2 {
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.75);
     text-transform: uppercase;
     transition: content 0.5s ease;
-    color: #ffb300;
+    color: #ededed;
+    height: 40px;
+    margin: 0;
 }
-.service-link {
-  height: 120px;
-  padding: 50px 0;
+.intro .intro-body .container {
+  max-width: 500px;
+  display: block;
   text-align: center;
-  font-size: 1.2em;
-  font-weight: bold;
-  text-transform: uppercase;
-  color: white;
-  text-decoration: none;
-  text-shadow: 2px 2px rgba(0, 0, 0, .5);
-  background-color: rgba(0, 0, 0, 0.4);
-  transition: background-color 0.5s ease;
-  /*color: #00a8ff;*/
+  width: 100%;
+  margin-bottom: 1em;
 }
-.service-link:hover{
-  background-color: rgba(0, 0, 0, 0.1);
+.intro .intro-body iframe {
+  height: 180px;
+  border-radius: 4px;
 }
-#link-ortomolecular {
-  background-image: url(../img/ortomolecular.jpg);
-  background-size: cover;
-  padding: 0;
+@media(min-width:500px) {
+  .intro .intro-body iframe {
+    height: 250px;
+  }
 }
-#link-homeopatia {
-  background-image: url(../img/homeopatia.jpg);
-  background-size: cover;
-  padding: 0;
-}
-#link-apiterapia {
-  background-image: url(../img/apiterapia.jpg);
-  background-size: cover;
-  padding: 0;
-}
-#link-terapianeural {
-  background-image: url(../img/terapianeural.jpg);
-  background-size: cover;
-  padding: 0;
-}
-.content-text {
-  padding: 0 2em;
-}
-@media(min-width:768px) {
+@media (min-width: 992px) {
     .intro {
         padding: 0;
     }
-    .intro .intro-body .brand-heading {
-        font-size: 50px;
+    .intro .intro-body-container {
+      display: flex;
+      justify-content: center;
+    }
+    .intro .intro-body .container {
+      display: flex;
+      height: 240px;
+      max-width: 500px;
+      align-items: flex-end;
+      justify-content: flex-end;
+      padding: 0;
+      margin: 0;
     }
     .intro .intro-body .intro-text {
-        font-size: 24px;
-    }
-    .service-link {
-      height: 130px;
+      text-align: right;
+      padding-right: 6px;
     }
 }
 
-@media (min-width: 992px) {
-    .intro .list-inline {
-        text-align: right;
-    }
-}
-
-@media(max-width:768px) {
-    .intro2 #clock {
-        padding:0;
-    }
-    .intro .intro-body {
-        padding: 30px 0;
-    }
-}
 
 /* VIDEO BACKGROUND */
 .video-controls {
@@ -440,8 +398,17 @@ h2 {
     padding-bottom: 0;
 }
 
-/* About */
+/* Intermission */
+#intermission {
+  width: 100%;
+  height: 75vh;
+  background: url(../img/background-2.jpg)  no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
 
+/* About */
 #about,
 #about2,
 #about3 {
@@ -451,7 +418,7 @@ h2 {
 }
 #about {
     width: 100%;
-    background: url(../img/2.jpg)  no-repeat center center fixed;
+    background: url(../img/background.jpg)  no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -523,6 +490,11 @@ h2 {
     background-color: #f0f0f0;
     color: #212121;
     padding: 3em 0;
+    height: 70vh;
+}
+#progress .row {
+  width: 90%;
+  margin: auto;
 }
 .progress {
     margin-bottom: 40px;
@@ -543,9 +515,22 @@ h2 {
 }
 
 /* Team */
-
+#team .row {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+}
+#team .row div {
+  margin-bottom: 1.5em;
+}
 #team h2 {
     margin-bottom: 55px;
+}
+#team span {
+    display: block;
+}
+#team h5 {
+    margin: 10px 0;
 }
 
 
@@ -554,7 +539,7 @@ h2 {
 #contact {
     width: 100%;
     color: #fff;
-    background: url(../img/4.jpg) no-repeat center center fixed;
+    background: url(../img/background-3.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -567,17 +552,56 @@ h2 {
 }
 
 .associate-logo {
-  display: inline-block;
-  width: 15em;
-  margin: 0 1em;
-}
-.associate-logo img {
+  display: block;
+  min-height: 6em!important;
   width: 100%;
+  text-align: center;
+  margin: 0 0 2em;
+}
+@media(min-width:949px) {
+  .associate-logo {
+    display: inline-block;
+    height: 4em;
+    width: 20em;
+    margin: 6em 0 0;
+  }
 }
 .card .sub-text {
-  max-width: 600px;
+  max-width: 500px;
   margin: 10px auto 40px;
+  font-size: 16px;
 }
 .card img {
   width: 150px;
+}
+.show {
+  display: block;
+}
+.hide {
+  display: none!important;
+}
+.color {
+    color: #50b748;
+}
+.headerline-color {
+    border-bottom: 1px solid #50b748;
+    padding-bottom: 15px;
+    display: inline-block;
+}
+.btn-primary, .btn-default {
+  border-radius: 4px!important;
+}
+.progress, .team, .who-we-are {
+  position: relative;
+}
+.item-left {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateX(-8px);
+}
+.item-right {
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }

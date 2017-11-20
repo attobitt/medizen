@@ -8,8 +8,14 @@
 $(window).scroll(function() {
     if ($(".navbar").offset().top > 50) {
         $(".navbar-fixed-top").addClass("top-nav-collapse");
+        $(".menu-extra").removeClass("hide");
+        $(".navbar-custom .navbar-brand .logo").removeClass("hide");
+        $(".navbar-custom .navbar-brand .logo-white").addClass("hide");
     } else {
+        $(".menu-extra").addClass("hide");
         $(".navbar-fixed-top").removeClass("top-nav-collapse");
+        $(".navbar-custom .navbar-brand .logo-white").removeClass("hide");
+        $(".navbar-custom .navbar-brand .logo").addClass("hide");
     }
 });
 
