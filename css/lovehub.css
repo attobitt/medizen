@@ -432,58 +432,6 @@ h2 {
     }
 }
 
-/* Countdown */
-
-#clock div {
-    display: inline-block;
-    font-size: 16px;
-    font-weight: 600;
-    margin:0 25px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    line-height: 60px;
-}
-#clock span {
-    display: block;
-    font-size: 72px;
-    font-weight: 300;
-    padding: 30px 0;
-    border-bottom: 1px solid #333;
-}
-
-@media (max-width: 768px) {
-    #clock div {
-        font-size: 14px;
-        margin:0 15px;
-    }
-    #clock span {
-        font-size: 42px;
-        padding: 15px 0;
-    }
-}
-
-@media (max-width: 468px) {
-    #clock div {
-        font-size: 11px;
-        margin:0 7px;
-    }
-    #clock span {
-        font-size: 32px;
-        padding: 5px 0;
-    }
-}
-
-#countdown {
-  background-color: #212121;
-  color: #f0f0f0;
-  padding: 3em ;
-  font-weight: lighter;
-  text-align: left;
-
-}
-#countdown p {
-  margin: 0;
-}
 /* Progress Bar */
 
 #progress {
@@ -492,7 +440,7 @@ h2 {
     padding: 3em 0;
     height: 70vh;
 }
-#progress .row {
+#progress .row, #treatments .row {
   width: 90%;
   margin: auto;
 }
@@ -580,18 +528,26 @@ h2 {
 .hide {
   display: none!important;
 }
-.color {
+.green {
     color: #50b748;
 }
-.headerline-color {
+.orange {
+  color: #F18020;
+}
+.headerline-green {
     border-bottom: 1px solid #50b748;
+    padding-bottom: 15px;
+    display: inline-block;
+}
+.headerline-orange {
+    border-bottom: 1px solid #F18020;
     padding-bottom: 15px;
     display: inline-block;
 }
 .btn-primary, .btn-default {
   border-radius: 4px!important;
 }
-.progress, .team, .who-we-are {
+.treatments, .progress, .team, .who-we-are {
   position: relative;
 }
 .item-left {
