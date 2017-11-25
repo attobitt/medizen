@@ -656,3 +656,9 @@ h2 {
   padding: .5em;
   border-radius: 10px;
 }
+.social-link {
+  display: inline-block!important;
+}
+.fa-stack-2x {
+  color: #023e88!important;
+}
