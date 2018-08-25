@@ -1,0 +1,10 @@
+@font-face{
+	font-family: fuente_1;
+	font-style: normal;
+	font-weight: normal;
+	src: url(Call me maybe.ttf);
+}
+
+p.tipografia_1{
+	font-family: fuente_1;
+}
