@@ -1,1 +1,0 @@
-# Medizen Bolivia - Responsive website
