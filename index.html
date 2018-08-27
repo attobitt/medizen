@@ -35,14 +35,29 @@
     * Copyright 1994-2015 ForBetterWeb.com
     -->
 	<style>
-            body {                  
+            /*body {                  
 			background-image: url(img/background.jpg);
 			background-attachment: inherit;
-			background-size: cover;           /* Gecko 2.0 (Firefox 4.0) and other CSS3-compliant browsers */
+			background-size: cover; 
 			background-position: top center;
 			background-repeat: no-repeat;
 		    	position: relative;			
-                }
+                }*/
+		body:before {
+				  content: "";
+				  display: block;
+				  position: fixed;
+				  left: 0;
+				  top: 0;
+				  width: 100%;
+				  height: 100%;
+				  z-index: -20;
+				  background: url(img/background.jpg) no-repeat center center;
+				  -webkit-background-size: cover;
+				  -moz-background-size: cover;
+				  -o-background-size: cover;
+				  background-size: cover;
+				}
            		#contenedor {
 				background:url(img/Back-Whatsapp3.png) no-repeat;
 				left:200px;
