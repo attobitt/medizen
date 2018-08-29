@@ -1,0 +1,41 @@
+@font-face{
+	font-family: fuente_1;
+	font-style: normal;
+	font-weight: normal;
+	src: url(font/barmeno-bold-588ce24f8a369.otf);
+}
+@font-face{
+	font-family: fuente_2;
+	font-style: normal;
+	font-weight: normal;
+	src: url(font/barmeno-regular-588ce228b68dd.otf);
+}
+@font-face{
+	font-family: fuente_3;
+	font-style: normal;
+	font-weight: normal;
+	src: url(font/911Fonts.com_CenturyGothicBold__-_911fonts.com_fonts_pMgo.ttf);
+}
+@font-face{
+	font-family: fuente_4;
+	font-style: normal;
+	font-weight: normal;
+	src: url(font/911Fonts.com_CenturyGothicRegular__-_911fonts.com_fonts_mhpY.ttf);
+}
+
+div.tipografia_1{
+	font-family: fuente_1;
+	font-size: 290%;
+}
+div.tipografia_2{
+	font-family: fuente_2;	
+	font-size: 150%;
+}
+div.tipografia_3{
+	font-family: fuente_3;	
+	font-size: 140%;
+}
+p.tipografia_4{
+	font-family: fuente_4;	
+	font-size: 85%;
+}

@@ -1,0 +1,16 @@
+#informacion .contenedor{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+#informacion article{
+	margin: 15px;
+}
+
+#informacion .texto{
+	width: 100%;
+	max-width: 280px;
+	color: #fff;
+	text-align: center;
+}

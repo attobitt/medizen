@@ -5,22 +5,31 @@
 
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
   <meta name="description" content="">
   <meta name="author" content="">
 
   <title>Medizen | ¡Más allá de la medicina convencional!</title>
 
-  <!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="css/bootstrap.css">
-
-  <!-- Custom CSS -->
-  <!--<link href="css/lovehub.css" rel="stylesheet">-->
-  <link rel="stylesheet" href="css/main.css">
-
-  <!-- Custom Fonts -->
-  <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">-->
-  <link href="https://fonts.googleapis.com/css?family=Poppins:300,500,600" rel="stylesheet">
+  <link rel="stylesheet" href="css/estilos.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    body:before {
+          content: "";
+          display: block;
+          position: fixed;
+          left: 0;
+          top: 0;
+          width: 100%;
+          height: 100%;
+          z-index: -20;
+          background: url(img/background2.jpg) no-repeat center center;
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+        }
+  </style>
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -34,125 +43,68 @@
     * https://wrapbootstrap.com/theme/lovehub-WB0T1J69J
     * Copyright 1994-2015 ForBetterWeb.com
     -->
-	<style>
-            body {                  
-			background-attachment: fixed;
-			background-image: url("img/Background.jpg");					
-			background-position: top center;
-			background-repeat: no-repeat;
-			background-size: cover;					
-			position: relative;
-                }
-           		#contenedor {
-				background:url(img/Back-Whatsapp3.png) no-repeat;
-				left:200px;
-				}
-				#inferior{
-				/*color: #FFF;*/
-				/*background: #000;*/
-				position:absolute; /*El div será ubicado con relación a la pantalla*/
-				left:0px; /*A la derecha deje un espacio de 0px*/
-				right:0px; /*A la izquierda deje un espacio de 0px*/
-				bottom:46%; /*Abajo deje un espacio de 0px*/
-				height:0px; /*alto del div*/
-				z-index:0;
- 				}
-        </style>
 </head>
 
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">	
-	<div class="main-wrapper">			
-			<!-- Start Contact Form -->
-			<section class="contact-form-area">
-				<div class="container">
-					<div class="row justify-content-center">
-						<div class="col-lg-12">
-							<div class="section-title text-center">
-								<h1 class="text-white">Estamos mejorando para usted</h1>
-								<p class="text-white"><font size="5%" face="calibri">Muy pronto estará nuevamente activa nuestra Página Web </font></p>
-							</div>
-						</div>
-					</div>
+<body>
+  <main>
+    <section id="banner">
+      <!--<img src="img/Background2.jpg">-->
+      <div class="contenedor">
+        <div class="tipografia_1">Estamos mejorando para usted</div>
+        <div class="tipografia_2">Muy pronto estará nuevamente activa nuestra Página Web</div>
+      </div>
+    </section>
+    <section id="blog">
+      <div class="contenedor">
+        <article><img src="img/Logo4.png"></article>        
+      </div>
+    </section>
+    <section id="blog2">
+      <div class="contenedor">
+        <article><a href="https://api.whatsapp.com/send?phone=59179359492" title="Ir a Whatssap"><img src="img/Whatsapp.png" onmouseover="this.src='img/Whatsapp2.png';" onmouseout="this.src='img/Whatsapp.png';" width="200" height="35" alt=""></a></article>
+      </div>
+    </section>
+    <section id="informacion">      
+      <div class="contenedor">
+        <article>
+            <div class="texto">         
+              <div class="tipografia_3">Santa Cruz</div>
+              <p class="tipografia_4"><br>Calle Cañada Strongest<br> Esquina Platanillos Edif.<br>SUTO local 5B Planta Baja<br><br><p/>
+              <p class="tipografia_4"><i class="fa fa-fax" style="font-size:16px"></i> (591) 3301353</p>
+            </div>
+        </article>
 
-					<div class="container" align="center">
-						<img src="img/Logo4.png" style="max-width:100%;width:auto;height:auto;" alt="Responsive image">
-					</div>							
-				</div>
-			</section>
-			<!-- End Contact Form -->			
-			<!-- Start Footer Widget Area -->
-			<section class="footer-widget-area">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-12" align="center">
-							<table border="0" id="contenedor">
-							<tr>
-								<td align="center" width="150">
-									<img src="img/Whatsapp-Logo4.png" style="max-width:100%;width:auto;height:auto;" alt="Responsive image">
-									<font color="white">(591) 79359492<br>&nbsp;</font>
-								</td>
-							</tr>
-						</table>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-3">
-							<div class="single-widget">
-								<div class="desc">
-									<h6 class="title">Santa Cruz</h6>
-									<p><br/>Calle Cañada Strongest<br/> Esquina Platanillos Edif.<br/>SUTO local 5B Planta Baja<br><br>
-										<img src="img/Phone-Logo2.png" style="max-width:100%;width:auto;height:auto;" alt="">
-										(591) 3301353
-									</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-3">
-							<div class="single-widget">
-								<div class="desc">
-									<h6 class="title">La Paz</h6>
-									<div class="contact">
-										<p>Av. 20 de Octubre<br/> Esq. Cap. Castrillo Edificio<br/> Los Cedros #356<br/> Planta baja oficina G5<br/> (Zona San Pedro)<br>
-											<img src="img/Phone-Logo2.png" style="max-width:100%;width:auto;height:auto;" alt="">
-											(591) 2312803
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-3">
-							<div class="single-widget">
-								<div class="desc">
-									<h6 class="title">Cochabamba</h6>
-									<div class="contact">
-										<p><br>Calle Mayor Rocha N°308<br/> esq. Hamiraya lado<br/> Colegio La Salle<br><br>
-											<img src="img/Phone-Logo2.png" style="max-width:100%;width:auto;height:auto;" alt="">
-											(591) 4063643
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-3">
-							<div class="single-widget">
-								<div class="desc">
-									<h6 class="title">Oruro</h6>
-									<div class="contact">
-										<p><br>Av. ESPAÑA #640 entre<br/> Soria Galvarro y La Plata
-											<br><br><br>
-											<img src="img/Phone-Logo2.png" style="max-width:100%;width:auto;height:auto;" alt="">
-											(591) 71080502
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>				
-			</section>
-			<!-- End Footer Widget Area -->
+        <img src="img/laterales.png" width="2" height="200">
 
-		</div>
+        <article>
+            <div class="texto">
+              <div class="tipografia_3">La Paz</div>
+            <p class="tipografia_4">Av. 20 de Octubre<br/> Esq. Cap. Castrillo Edificio<br/> Los Cedros #356<br/> Planta baja oficina G5<br/> (Zona San Pedro)<br></p>
+            <p class="tipografia_4"><i class="fa fa-fax" style="font-size:16px"></i> (591) 2312803</p>
+            </div>
+        </article>
+
+        <img src="img/laterales.png" width="2" height="200">
+
+        <article>
+            <div class="texto">
+              <div class="tipografia_3">Cochabamba</div>
+            <p class="tipografia_4"><br>Calle Mayor Rocha N°308<br/> esq. Hamiraya lado<br/> Colegio La Salle<br><br></p>
+            <p class="tipografia_4"><i class="fa fa-fax" style="font-size:16px"></i> (591) 4063643</p>
+            </div>
+        </article>
+
+        <img src="img/laterales.png" width="2" height="200">
+
+        <article>         
+            <div class="texto">
+            <div class="tipografia_3">Oruro</div>
+            <p class="tipografia_4"><br>Av. ESPAÑA #640 entre<br/> Soria Galvarro y La Plata<br><br><br></p>
+            <p class="tipografia_4"><i class="fa fa-fax" style="font-size:16px"></i> (591) 71080502</p>
+            </div>
+        </article>
+      </div>
+    </section>    
+  </main>
 </body>
 </html>
-
