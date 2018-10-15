@@ -405,7 +405,7 @@ section {
 .split-padding3,
 .split-padding4,
 .split-padding5 {
-    padding: 100px 60px 50px;
+    padding: 70px 60px 50px;
 }
 
 @media(max-width:768px) {
@@ -520,9 +520,10 @@ a:hover .fa-circle {
     outline: 0;
 }
 .navbar-custom a {/* ponemos color a la fuente y tamaño */
-    color: #fff;
+    /*color: #fff;*/
     font-size: 12px;
     font-weight: 700;
+    text-decoration: none;
     letter-spacing: 0em;/*Para separar texto la distancia*/
     /*text-transform: uppercase;*/
 }
@@ -535,12 +536,16 @@ a:hover .fa-circle {
 .navbar-custom .nav li a:hover {
     outline: 0;
     color: rgba(255,255,255,.8);
-    background-color: transparent;
+    background-color: transparent;    
+    border-bottom: 1px solid #4EAD3F; 
+    padding-bottom: .1em;
 }
 .navbar-custom .nav li a:focus,
 .navbar-custom .nav li a:active {
-    outline: 0;
+    outline: 0;    
     background-color: transparent;
+    border-bottom: 1px solid #4EAD3F; 
+    padding-bottom: .1em;
 }
 .navbar-custom .nav li.active {
     outline: 0;
