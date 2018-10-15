@@ -1,0 +1,156 @@
+@font-face{
+	font-family: fuente_1;
+	font-style: normal;
+	font-weight: normal;
+	src: url(fonts/911Fonts.com_CenturyGothicBold__-_911fonts.com_fonts_pMgo.ttf);
+}
+@font-face{
+	font-family: fuente_2;
+	font-style: normal;
+	font-weight: normal;
+	src: url(fonts/911Fonts.com_CenturyGothicRegular__-_911fonts.com_fonts_mhpY.ttf);
+}
+@font-face{
+	font-family: fuente_3;
+	font-style: normal;
+	font-weight: normal;
+	src: url(fonts/barmeno-bold-588ce24f8a369.otf);
+}
+@font-face{
+	font-family: fuente_4;
+	font-style: normal;
+	font-weight: normal;
+	src: url(fonts/barmeno-regular-588ce228b68dd.otf);
+}
+@font-face{
+	font-family: fuente_5;
+	font-style: normal;
+	font-weight: normal;
+	src: url(fonts/Futura_T_Medium.ttf);
+}
+@font-face{
+	font-family: fuente_6;
+	font-style: normal;
+	font-weight: normal;
+	src: url(fonts/Futura URW Extra Bold.ttf);
+}
+
+div.tipografia_8{
+	font-family: fuente_1;
+	font-size: 260%;
+}
+p.tipografia_9{
+	font-family: fuente_2;	
+	font-size: 18px;
+}
+p.tipografia_10{
+	font-family: fuente_2;	
+	font-size: 18px;
+}
+h2.tipografia_10{
+	font-family: fuente_1;
+	font-size: 300%;
+}
+div.tipografia_2{
+	font-family: fuente_2;	
+	font-size: 18px;
+}
+div.tipografia_3{
+	font-family: fuente_3;	
+	font-size: 360%;
+	color: #092980;
+	text-shadow: -1px 0 white, 0 1px white,
+	  1px 0 white, 0 -1px white;	
+}
+p.tipografia_4{
+	font-family: fuente_4;	
+	font-size: 85%;
+}
+div.tipografia_5{
+	font-family: fuente_5;	
+	font-size: 15px;	
+	/*font-weight: normal;*/
+}
+h3.tipografia_3{
+	font-family: fuente_1;	
+	font-size: 270%;
+}
+h3.tipografia_6{
+	font-family: fuente_1;	
+	font-size: 25px;
+}
+div.dibujoRec {/******************************************************************/	
+    border: 6px solid rgba(0, 0, 0, 0);    
+    color: #fff;
+    width: 245px;
+    height: 42px;
+    background-color: transparent;
+    background: rgba(42, 176, 27, 0.78);
+    border-radius: 2.0em; 
+}
+h2.tipografia_1{
+	font-family: fuente_1;
+	font-size: 260%;
+	color: #092980;
+}
+h2.tipografia_5{
+	font-family: fuente_1;
+	font-size: 370%;
+}
+span.tipografia_6{
+	font-family: fuente_1;
+	font-size: 200%;
+	color: #092980;
+	line-height: 120%;
+}
+div.servicio_cont{
+	background-color: transparent;
+    background: rgba(221, 221, 227, 0.78);
+    /*width: 420px;*/
+    width:75%; 
+    height:auto;
+}
+h2.tipografia_7{
+	font-family: fuente_1;
+	font-size: 210%;
+	color: #092980;
+	line-height: 130%;
+}
+
+
+/*Definiendo el diseño de scrollball*/
+div#scroll_div::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(208,204,204,.25);
+	border-radius: 10px;
+	background-color: #ffff;
+}
+
+div#scroll_div::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #F5F5F5;
+}
+
+div#scroll_div::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(208,204,204,.25);
+	background-color: #C8C5C5;
+}
+
+*{
+	margin:0px;
+	padding:0px;
+	/*font-family: arial;*/
+}
+
+div#scroll_div{
+	margin:20px auto;
+	/*width:500px;*/
+	height:700px;
+	background-color: #ffff;
+	overflow: auto;
+}
+
+/***************************************************************************************/
