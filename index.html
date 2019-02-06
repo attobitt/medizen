@@ -12,16 +12,18 @@
   <title>Medizen | ¡Más allá de la medicina convencional!</title>
 
   <!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-  <!--<link rel="stylesheet" href="css/bootstrap.min.css">-->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
 
   <!-- Custom CSS -->
   <link href="css/lovehub.css" rel="stylesheet">
 
   <!-- Custom Fonts -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="css/font-awesome.min.css">
   
   <link rel="stylesheet" href="fuente.css">
+
+  <link rel="stylesheet" href="css/flickity.css" media="screen">
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -35,6 +37,20 @@
     * https://wrapbootstrap.com/theme/lovehub-WB0T1J69J
     * Copyright 1994-2015 ForBetterWeb.com
     -->
+    <style>
+      /* external css: flickity.css */
+
+      * {
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+      }
+
+      .gallery-cell {
+        width: 100%;
+        margin-right: 10px;        
+        counter-increment: gallery-cell;
+      }
+    </style>
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
@@ -293,39 +309,6 @@
       <p>Actualmente Medizen cuenta con el avaluó y apoyo de la Sociedad Científica de Colombia SCA.</p>
     </div>    
     </div>
-    
-    <!--<div id="apiterapia-popup" class="zoom-anim-dialog mfp-hide">
-  	  <h2>Apiterapia</h2>
-      <p><img src="img/apiterapia-2.jpg" class="img-responsive center-block" alt=""></p>
-      <p>El uso médico - terapéutico de la apiterapia se basa en el uso de los derivados de la colmena, aunque la apiterapia puede utilizarse en muchas enfermedades, principalmente ha demostrado grandiosos resultados en enfermedades reumáticas.</p>
-      <p>La apiterapia se encuentra dentro de la medicina complementaria que se utiliza para fines curativos, los productos apícolas o de la colmena como el veneno de abeja o apitoxina, miel, polen, pan de abeja, jalea real, propóleo, cera, larvas de zángano,
-        abejas enteras y recientemente el aire de la colmena.</p>
-      <p>Medizen actualmente posiciona a Bolivia como un País con uso de la Apiterapia de 2da Generación con resultados probados y aprobados por sociedades científicas.</p>
-      <p>Actualmente Medizen cuenta con el avaluó y apoyo de la Sociedad Científica de Colombia SCA.</p>
-    </div>
-    <div id="homeopatia-popup" class="zoom-anim-dialog mfp-hide">
-      <h2>Homeopatía</h2>
-      <p><img src="img/homeopatia-2.jpg" class="img-responsive center-block" alt=""></p>
-      <p>El mundo hoy en día presenta una creciente necesidad de tratamientos complementarios y de una visión diferente de la medicina convencional.</p>
-      <p>Esta disciplina médica nace de la mano de Samuel Hahnemann, médico alemán de principios del siglo XIX que se basa en la ley de los semejantes.</p>
-      <p>Esta ley de los semejantes dispone que una sustancia capaz de producir una determinada sintomatología (al experimentarla en individuos sanos) sea también capaz de curarla en los enfermos, administrándola en dosis mínimas.</p>
-      <p>Actualmente Medizen tiene el apoyo y fármacos administrados – enviados por Laboratorio Homeopático Alemán LHA.</p>
-    </div>
-    <div id="terapia-neural-popup" class="zoom-anim-dialog mfp-hide">
-      <h2>Terapia Neural</h2>
-      <p><img src="img/terapianeural-2.jpg" class="img-responsive center-block" alt=""></p>
-      <p>Esta terapia radica en la inyección en lugares determinados del cuerpo con el propósito principal de la restauración de los potenciales eléctricos en la membrana celular.</p>
-      <p>Este tipo de terapia es excelente para potenciar la energía vital del cuerpo. Estos resultados en el tratamiento de varios sistemas se pueden lograr sin efectos adversos.</p>
-      <p>Se puede impulsar la Re polarización de las células actuando en el sistema nervioso, aun aquellas que son resistentes a otros tratamientos médicos.</p>
-    </div>
-    <div id="nutricion-ortomolecular-popup" class="zoom-anim-dialog mfp-hide">
-      <h2>Nutrición Ortomolecular</h2>
-      <p><img src="img/ortomolecular-2.jpg" class="img-responsive center-block" alt=""></p>
-      <p>Esta área de la medicina complementaria que está orientada a mantener la salud del paciente por medio de la suplementación nutricional.</p>
-      <p>Según esta disciplina el tratamiento de las enfermedades se encarga de corregir los desequilibrios o deficiencias basadas en la bioquímica individual y esto se puede lograr a base substancias naturales como: vitaminas, minerales, aminoácidos,
-        elementos traza y ácidos grasos.</p>
-        <p>Esta práctica es renombrada y claramente identificada por el progreso en la salud de los pacientes.</p>
-    </div>-->
   </section>
 
   <!-- Intermission Section -->
@@ -371,30 +354,6 @@
         <p>Nombrando uno de los elementos que se utiliza dentro de este tipo de terapias tenemos al Veneno de abeja ”Apitoxina” para el tratamiento natural y cura del desgaste de las articulaciones.</p>
       </div>
       </div>
-      <!-- <div class="col-sm-12">
-        <h4>Tenemos una lista Muy interesante de las enfermedades que puede ser tratada con la APITERAPIA</h4>
-      </div>
-      <div class="col-sm-4">
-        <ul>
-          <li>Esclerosis Múltiple (EM).</li>
-          <li>Fiebre de heno.</li>
-          <li>Problemas neurológicos: SRA, ALS (Enfermedad de Lou Gehrig), Herpes, Dolor de cicatriz.</li>
-        </ul>
-      </div>
-      <div class="col-sm-4">
-        <ul>
-          <li>Problemas musculo esqueléticos: Artritis, Gota, Tendinitis, Bursitis, Dolor espinal.</li>
-          <li>Problemas infecciosos: Enfermedades bacterianas, virales y fúngicas.</li>
-          <li>Traumas: Heridas agudas y crónicas.</li>
-        </ul>
-      </div>
-      <div class="col-sm-4">
-        <ul>
-          <li>Quemaduras.</li>
-          <li>Esguinces y fracturas.</li>
-          <li>Tumores: Benigno, Maligno (cáncer).</li>
-        </ul>
-      </div> -->
     </div>
   </section>
 
@@ -423,77 +382,124 @@
       <p class="tipografia_9" align="justify">Contamos con personal Profesional Médico calificado y con un alto estándar de práctica de ética médica. Nuestro Profesionales Médicos entra constantemente en capacitaciones para mantenerse al tanto de los avances en los diferentes servicios que
         Ofrecemos.
       </p>
-      <div class="col-lg-3 col-md-4 col-sm-6">
-        <div id="card1" class="card">
-          <div class="front">
-            <span><img src="img/DR_ROGER_E_FERNANDEZ_BERNAL.png" style="width:80%; height:auto;" class="img-responsive center-block" alt=""></span>
-            <!--<h5>Dr. Roger E. Fernandez Bernal</h5>
-            <span>Director Médico Nacional</span>-->
-            <span></span>
+      <div class="js-flickity">
+        <div class="gallery-cell">
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <div id="card1" class="card">
+              <div class="front">
+                <span><img src="img/DR_ROGER_E_FERNANDEZ_BERNAL.png" style="width:80%; height:auto;" class="img-responsive center-block" alt=""></span>
+                <span></span>
+              </div>
+              <div class="back">
+                <h5><b>Roger Edwin Fernandez Bernal</b></h5>
+                Director Médico Nacional “Medizen” <br>
+                Especialista en Nutriologia Clínica con Práctica Ortomolecular Titulación<br>
+                Válida en Lic. En Medicina Madrid- España Diplomado en Farmacología<br>
+                Miembro Honorario Sociedad Colombiana de Apiterapia <br>
+                Médico Egresado de la Facultad de Medicina Universidad Privada del Valle <br>
+                Estudios de actualización con la Sociedad Colombiana de Apiterapia.<br>
+                Socio de SENMO Sociedad Española de Nutrición y Medicina Ortomolecular<br>
+                Actualmente cursa el Master de Nutrición, Medicina y Práctica<br>
+                Ortomolecular 2019-2020 avalado por la SENMO y FAPES.
+              </div>
+            </div>
           </div>
-          <div class="back">
-            <h5><b>Roger Edwin Fernandez Bernal</b></h5>
-            Director Médico Nacional “Medizen” <br>
-            Especialista en Nutriologia Clínica con Práctica Ortomolecular <br>
-            Titulación Válida en Lic. En Medicina Madrid- España <br>
-            Diplomado en Farmacología <br>
-            Miembro Honorario Sociedad Colombiana de Apiterapia <br>
-            Médico Egresado de la Facultad de Medicina Universidad Privada del Valle <br>
-            Estudios de actualización con la Sociedad Colombiana de Apiterapia.
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <div id="card2" class="card">
+              <div class="front">
+                <span><img src="img/DRA_MAGALY_JACINTO_EUGENIO.png" style="width:80%; height:auto;" class="img-responsive center-block" alt=""></span>
+                <!--<h5>Dra. Magaly Jacinto Eugenio</h5>
+                <span>Médico Regional Oruro</span>-->
+                <span></span>
+              </div>
+              <div class="back">
+                <h5><b>Dra. Magaly Jacinto Eugenio</b></h5>
+                Médico Regional “Oruro”<br>
+                Médico Cirujano egresada de la Facultad de Medicina UPAL <br>
+                Estudios de actualización con la Sociedad Colombiana de Apiterapia.
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <div id="card3" class="card">
+              <div class="front">
+                <span><img src="img/DRA_ANDREA_C_GUARACHI_PACHECHO.png" style="width:80%; height:auto;" class="img-responsive center-block" alt=""></span>
+                <!--<h5>Dra. Andrea C. Guarachi Pachecho</h5>
+                <span>Médico Regional La Paz</span>-->
+                <span></span>
+              </div>
+              <div class="back">
+                <h5><b>Dra. Andrea C. Guarachi Pacheco</b></h5>
+                Médico Regional "La Paz" <br>
+                Medico Egresada de la Facultad de Medicina de la Universidad Mayor de “San Andrés” <br>
+                Curso BLS Aprobado <br>
+                Especialidad en Salud Pública Mención Epidemiologia. <br>
+                Cursos de actualización con la Sociedad de Apiterapia.
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <div id="card4" class="card">
+              <div class="front">
+                <span><img src="img/DR_ANDRES_WILLY_MARIACA_MARENO.png" style="width:80%; height:auto;" class="img-responsive center-block" alt=""></span>
+                <!--<h5>Dr. Andres Willy Mariaca Mareño</h5>
+                <span>Médico Regional Santa Cruz</span>-->
+                <span></span>
+              </div>
+              <div class="back">
+                <h5><b>Dr. Andres Willy Mariaca Mareño. Guarachi Pacheco</b></h5>
+                Médico Regional "Santa Cruz" <br>
+                Médico Egresado de la Universidad de “Aquino Bolivia” <br>
+                Diplomado en Emergencias Médicas y Desastres por la Universidad Católica.<br>
+                Cursos de actualización con la Sociedad de Apiterapia.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="gallery-cell">
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <div id="card5" class="card">
+              <div class="front">
+                <span><img src="img/Dra-Ingrid-Estrada.jpg" style="width:80%; height:auto;" class="img-responsive center-block" alt=""></span>
+                <span></span>
+              </div>
+              <div class="back">
+                <h5><b>Dra. Ingrid Noelia Estrada Benavidez</b></h5>
+                Médico Regional "Potosi" <br>
+                Egresada de la Facultad de Medicina de la Universidad autónoma Tomás frías
+
+                SEGURO UNIVERSITARIO NUESTRA SEÑORA DE LA PAZ 2015
+                Atención sanitaria inmediata a pacientes graves
+
+                HOSPITAL DE CLINICAS UNIVERSITARIO 2017
+                asistencia de casos de Emergencias geriátricas, control de pacientes con<br> enfermedades crónicas<br>
+
+                CLINICA CRUZ DEL SUR 2018
+                Atención primaria de salud y Emergencias médicas
+                Jefatura médica
+
+                CURSOS DE ACTUALIZACIÓN DE LA SOCIEDAD COLOMBIANA DE APITERAPIA
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <div id="card6" class="card">
+              <div class="front">
+                <span><img src="img/Dra-Flavia-Silvana-Jaldin.jpg" style="width:80%; height:auto;" class="img-responsive center-block" alt=""></span>              
+                <span></span>
+              </div>
+              <div class="back">
+                <h5><b>Dra. Flavia Silvana Jaldin Garnica</b></h5>
+                Médico Cirujano Egresada de la Facultad de Medicina UPAL<br>
+                Diplomado en Ecografía General 
+                Universidad Técnica de Oruro<br>
+                Actualmente capacitación continua<br> con la Sociedad Colombiana de Apiterapia.
+              </div>
+            </div>
           </div>
         </div>
       </div>
-      <div class="col-lg-3 col-md-4 col-sm-6">
-        <div id="card2" class="card">
-          <div class="front">
-            <span><img src="img/DRA_MAGALY_JACINTO_EUGENIO.png" style="width:80%; height:auto;" class="img-responsive center-block" alt=""></span>
-            <!--<h5>Dra. Magaly Jacinto Eugenio</h5>
-            <span>Médico Regional Oruro</span>-->
-            <span></span>
-          </div>
-          <div class="back">
-            <h5><b>Dra. Magaly Jacinto Eugenio</b></h5>
-            Médico Regional “Oruro”<br>
-            Médico Cirujano egresada de la Facultad de Medicina UPAL <br>
-            Estudios de actualización con la Sociedad Colombiana de Apiterapia.
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-3 col-md-4 col-sm-6">
-        <div id="card3" class="card">
-          <div class="front">
-            <span><img src="img/DRA_ANDREA_C_GUARACHI_PACHECHO.png" style="width:80%; height:auto;" class="img-responsive center-block" alt=""></span>
-            <!--<h5>Dra. Andrea C. Guarachi Pachecho</h5>
-            <span>Médico Regional La Paz</span>-->
-            <span></span>
-          </div>
-          <div class="back">
-            <h5><b>Dra. Andrea C. Guarachi Pacheco</b></h5>
-            Médico Regional "La Paz" <br>
-            Medico Egresada de la Facultad de Medicina de la Universidad Mayor de “San Andrés” <br>
-            Curso BLS Aprobado <br>
-            Especialidad en Salud Pública Mención Epidemiologia. <br>
-            Cursos de actualización con la Sociedad de Apiterapia.
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-3 col-md-4 col-sm-6">
-        <div id="card4" class="card">
-          <div class="front">
-            <span><img src="img/DR_ANDRES_WILLY_MARIACA_MARENO.png" style="width:80%; height:auto;" class="img-responsive center-block" alt=""></span>
-            <!--<h5>Dr. Andres Willy Mariaca Mareño</h5>
-            <span>Médico Regional Santa Cruz</span>-->
-            <span></span>
-          </div>
-          <div class="back">
-            <h5><b>Dr. Andres Willy Mariaca Mareño. Guarachi Pacheco</b></h5>
-            Médico Regional "Santa Cruz" <br>
-            Médico Egresado de la Universidad de “Aquino Bolivia” <br>
-            Diplomado en Emergencias Médicas y Desastres por la Universidad Católica.<br>
-            Cursos de actualización con la Sociedad de Apiterapia.
-          </div>
-        </div>
-      </div>
+
     </div>
   </section>
 
@@ -571,21 +577,20 @@
   <!-- Magnific Popup core CSS file -->
   <link rel="stylesheet" href="css/magnific-popup.css">
   <!-- jQuery -->
-  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script src="js/jquery-2.1.4.min.js"></script>
   <!-- Magnific Popup core JS file -->
   <script src="js/jquery.magnific-popup.min.js"></script>
   <!-- Latest compiled and minified JavaScript -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
 
    <!-- Plugin JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js" integrity="sha384-mE6eXfrb8jxl0rzJDBRanYqgBxtJ6Unn4/1F7q4xRRyIw7Vdg9jP4ycT7x1iVsgb" crossorigin="anonymous"></script> 
-
-  <!-- https://nnattawat.github.io/flip/ -->
-  <script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js">
+    <script src="js/jquery.flip.min.js"></script>
   <!-- Plugin JavaScript -->
   <script src="js/jquery.easing.min.js"></script>
   <script src="js/jquery.countdown.min.js"></script>
   <script src="js/smoothscroll.js"></script>
+
+  <script src="js/flickity.pkgd.min.js"></script>
 
   <!-- Header Background Slider -->
   <script src="js/jquery.backstretch.min.js"></script>
@@ -617,6 +622,8 @@
       $("#card2").flip();
       $("#card3").flip();
       $("#card4").flip();
+      $("#card5").flip();
+      $("#card6").flip();
       $('.popup-with-move-anim').magnificPopup({
     		type: 'inline',
 
