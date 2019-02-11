@@ -347,16 +347,16 @@ section {
   }
 }
 @media screen and (max-width: 600px) {
-  .iconos2,.campo{
+  .iconos2,.campo,.deslizar0{
     display:block;
   }
-  .iconos1{
+  .iconos1,.deslizar1{
     display: none;
   }
 }
 @media(min-width:768px) {
   .iconos2,.circulo_arriba1,.plomo_arriba1,.plomo_arriba2,.plomo_arriba3,.plomo_arriba4,.campo,.div_espacio,
-  .div01,.div02,.div03,.div04,.azul2{
+  .div01,.div02,.div03,.div04,.azul2,.deslizar0{
     display:none;
   }  
 }
@@ -936,7 +936,7 @@ h2 {
 }
 
 .card {
-  height: 400px;
+  height: 420px;
   cursor: pointer;
 }
 
